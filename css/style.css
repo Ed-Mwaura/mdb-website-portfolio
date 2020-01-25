@@ -1,0 +1,49 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+#intro {
+	background: url("../img/bg.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #24355c;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+
+.sec-hire {
+	font-size: 1.5rem;
+	line-height:3.84rem;
+	margin-bottom: 2.4rem;
+}
+
+.olaf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+#intro-p {
+	font-size: 1.5rem;
+}
